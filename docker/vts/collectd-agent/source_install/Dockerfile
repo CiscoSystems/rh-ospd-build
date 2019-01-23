@@ -2,12 +2,12 @@
 # Author: wdec@cisco.com 2018
 
 FROM registry.access.redhat.com/rhosp13-beta/openstack-collectd
-LABEL  name="cisco-collectd-agent" vendor="cisco.com" version="2.6.2"
+LABEL  name="cisco-collectd-agent" vendor="cisco.com" version="2.6.3"
 
 ARG OS_VERSION=queens
 #ARG USER=
 #ARG TOKEN=
-ARG REPO=devhub.cisco.com/artifactory/vts-yum-dev/2.6.2.vts262
+ARG REPO=devhub.cisco.com/artifactory/vts-yum-dev/2.6.3.vts263
 ARG PACKAGE=cisco-vpfa-collectd-plugin-1.0.2-4.noarch.rpm
 
 USER root

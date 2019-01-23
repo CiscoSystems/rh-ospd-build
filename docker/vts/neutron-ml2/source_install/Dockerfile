@@ -2,16 +2,16 @@
 # Author: wdec@cisco.com 2018
 
 FROM registry.access.redhat.com/rhosp13/openstack-neutron-server
-LABEL name="neutron-cisco-vts-ml2" vendor="cisco.com" version="2.6.2"
+LABEL name="neutron-cisco-vts-ml2" vendor="cisco.com" version="2.6.3"
 LABEL summary="cisco vts ml2"
 LABEL description="Neutron Openstack 13 server with cisco VTS ML2"
 
 ARG OS_VERSION=queens
 #ARG USER=wdec
 #ARG TOKEN=
-ARG REPO=devhub.cisco.com/artifactory/vts-yum-dev/2.6.2.vts262-os-${OS_VERSION}
-ARG REPO2=devhub.cisco.com/artifactory/vts-yum-dev/2.6.2.vts262
-ARG PACKAGE=python-cisco-controller-0.1.7-9.el7_osp13.cisco.noarch.rpm
+ARG REPO=devhub.cisco.com/artifactory/vts-yum-dev/2.6.3.vts263-os-${OS_VERSION}
+ARG REPO2=devhub.cisco.com/artifactory/vts-yum-dev/2.6.3.vts263
+ARG PACKAGE=python-cisco-controller-0.1.7-13.el7_osp13.cisco.noarch.rpm
 ARG PACKAGE2=python2-jsondiff-1.1.2-2.el7.centos.noarch.rpm
 ARG _DST=/
 
