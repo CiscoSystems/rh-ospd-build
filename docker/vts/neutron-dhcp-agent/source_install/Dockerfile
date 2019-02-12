@@ -10,7 +10,7 @@ ARG OS_VERSION=queens
 #ARG USER=wdec
 #ARG TOKEN=
 ARG REPO=devhub.cisco.com/artifactory/vts-yum-dev/2.6.3.vts263-os-${OS_VERSION}
-ARG PACKAGE=python-cisco-controller-agent-device-drivers-0.1.7-13.el7_osp13.cisco.noarch.rpm
+ARG PACKAGE=python-cisco-controller-agent-device-drivers-0.1.7-14.el7_osp13.cisco.noarch.rpm
 ARG _DST=/
 
 USER root

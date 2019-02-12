@@ -11,7 +11,7 @@ ARG USER=wdec
 #ARG TOKEN=
 ARG REPO=devhub.cisco.com/artifactory/vts-yum-dev/2.6.3.vts263-os-${OS_VERSION}
 ARG REPO2=devhub.cisco.com/artifactory/vts-yum-dev/2.6.3.vts263
-ARG VTS_ML2_RPM=python-cisco-controller-0.1.7-9.el7_osp13.cisco.noarch.rpm
+ARG VTS_ML2_RPM=python-cisco-controller-0.1.7-14.el7_osp13.cisco.noarch.rpm
 ARG PACKAGE2=python2-jsondiff-1.1.2-2.el7.centos.noarch.rpm
 ARG RPM_DST=/
 
