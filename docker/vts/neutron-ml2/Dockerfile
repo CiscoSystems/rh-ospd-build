@@ -7,11 +7,12 @@ LABEL summary="cisco vts ml2"
 LABEL description="Neutron Openstack 13 server with cisco VTS ML2"
 
 ARG OS_VERSION=queens
+ARG DRIVER_VERSION=0.1.7-17
 ARG USER=wdec
 #ARG TOKEN=
 ARG REPO=devhub.cisco.com/artifactory/vts-yum-dev/2.6.3.vts263-os-${OS_VERSION}
 ARG REPO2=devhub.cisco.com/artifactory/vts-yum-dev/2.6.3.vts263
-ARG VTS_ML2_RPM=python-cisco-controller-0.1.7-14.el7_osp13.cisco.noarch.rpm
+ARG VTS_ML2_RPM=python-cisco-controller-${DRIVER_VERSION}.el7_osp13.cisco.noarch.rpm
 ARG PACKAGE2=python2-jsondiff-1.1.2-2.el7.centos.noarch.rpm
 ARG RPM_DST=/
 

@@ -7,10 +7,11 @@ LABEL summary="cisco vts dhcp agent"
 LABEL description="Neutron Openstack 13 DHCP agent with extension for runnion alongside cisco VPFA"
 
 ARG OS_VERSION=queens
+ARG DRIVER_VERSION=0.1.7-17
 #ARG USER=wdec
 #ARG TOKEN=
 ARG REPO=devhub.cisco.com/artifactory/vts-yum-dev/2.6.3.vts263-os-${OS_VERSION}
-ARG VTS_ML2_RPM=python-cisco-controller-agent-device-drivers-0.1.7-14.el7_osp13.cisco.noarch.rpm
+ARG VTS_ML2_RPM=python-cisco-controller-agent-device-drivers-${DRIVER_VERSION}.el7_osp13.cisco.noarch.rpm
 ARG RPM_DST=/
 
 USER root
