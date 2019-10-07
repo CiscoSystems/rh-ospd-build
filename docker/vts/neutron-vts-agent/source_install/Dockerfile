@@ -10,7 +10,7 @@ ARG OS_VERSION=queens
 #ARG USER=wdec
 #ARG TOKEN=
 ARG REPO=devhub.cisco.com/artifactory/vts-yum-dev/2.6.3.vts263-os-${OS_VERSION}
-ARG PACKAGE=cisco-vts-agent-2.6.2-7.noarch.rpm
+ARG PACKAGE=cisco-vts-agent-2.6.3-22.noarch.rpm
 ARG _DST=/
 
 USER root
